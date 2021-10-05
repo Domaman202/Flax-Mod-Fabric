@@ -1,8 +1,0 @@
-{
-    "type":"smelting",
-    "ingredient":{
-        "item":"flax:flax_seeds"
-    },
-    "result":"flax:roasted_flax_seeds",
-    "experience":1
-}

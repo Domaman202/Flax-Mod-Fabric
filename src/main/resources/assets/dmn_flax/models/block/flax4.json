@@ -1,6 +1,6 @@
 {
     "parent":"block/crop",
     "textures":{
-        "crop":"flax:block/flax4"
+        "crop":"dmn_flax:block/flax4"
     }
 }

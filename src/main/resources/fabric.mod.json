@@ -16,6 +16,7 @@
   },
 
   "license": "MIT",
+  "icon": "assets/dmn_flax/textures/logo.png",
 
   "environment": "*",
   "entrypoints": {

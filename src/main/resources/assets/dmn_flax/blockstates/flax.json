@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "dmn_flax:block/flax0" },
+        "age=1": { "model": "dmn_flax:block/flax0" },
+        "age=2": { "model": "dmn_flax:block/flax2" },
+        "age=3": { "model": "dmn_flax:block/flax2" },
+        "age=4": { "model": "dmn_flax:block/flax4" },
+        "age=5": { "model": "dmn_flax:block/flax4" },
+        "age=6": { "model": "dmn_flax:block/flax6" },
+        "age=7": { "model": "dmn_flax:block/flax7" }
+    }
+}

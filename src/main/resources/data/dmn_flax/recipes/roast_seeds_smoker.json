@@ -1,9 +1,9 @@
 {
     "type":"smoking",
     "ingredient":{
-        "item":"flax:flax_seeds"
+        "item":"dmn_flax:flax_seeds"
     },
-    "result":"flax:roasted_flax_seeds",
+    "result":"dmn_flax:roasted_flax_seeds",
     "experience":1,
     "cookingtime":100
 }

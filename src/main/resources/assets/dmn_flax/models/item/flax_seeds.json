@@ -1,6 +1,6 @@
 {
     "parent":"item/generated",
     "textures":{
-        "layer0":"flax:item/roasted_seeds"
+        "layer0":"dmn_flax:item/seeds"
     }
 }

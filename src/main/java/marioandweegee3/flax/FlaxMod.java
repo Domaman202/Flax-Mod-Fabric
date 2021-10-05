@@ -51,7 +51,6 @@ public class FlaxMod implements ModInitializer {
     public boolean isGrass(Identifier id) {
         if (id.equals(new Identifier("blocks/grass"))) return true;
         if (id.equals(new Identifier("blocks/fern"))) return true;
-        if (id.equals(new Identifier("blocks/tall_grass"))) return true;
-        return false;
+        return id.equals(new Identifier("blocks/tall_grass"));
     }
 }
