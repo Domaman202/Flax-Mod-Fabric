@@ -1,8 +1,6 @@
 package marioandweegee3.flax.blocks;
 
-import java.util.List;
-
-import marioandweegee3.flax.items.FMItems;
+import marioandweegee3.flax.FlaxMod;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
 import net.minecraft.entity.player.PlayerEntity;
@@ -10,22 +8,23 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.DefaultedList;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemScatterer;
+import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class FlaxCrop extends CropBlock {
+import java.util.List;
 
-    protected FlaxCrop(Settings settings) {
+public class FlaxCrop extends CropBlock {
+    public FlaxCrop(Settings settings) {
         super(settings);
     }
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return FMItems.flaxSeeds;
+        return FlaxMod.flaxSeeds;
     }
 
     @Override
@@ -38,7 +37,7 @@ public class FlaxCrop extends CropBlock {
             }
 
             for(ItemStack stack : drops){
-                if(stack.getItem() == FMItems.flaxSeeds){
+                if(stack.getItem() == FlaxMod.flaxSeeds){
                     ItemStack seedStack = stack.copy();
                     drops.remove(stack);
                     seedStack.decrement(1);

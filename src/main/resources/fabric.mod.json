@@ -6,14 +6,16 @@
   "name": "Flax",
   "description": "Flax is string!",
   "authors": [
+    "DomamaN202",
     "MarioAndWeegee3"
   ],
+
   "contact": {
-    "homepage": "https://marioandweegee3.github.io"
+    "homepage": "https://github.com/Domaman202/Flax-Mod-Fabric",
+    "sources": "https://github.com/Domaman202/Flax-Mod-Fabric"
   },
 
-  "license": "",
-  "icon": "assets/flax/textures/icon.png",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
@@ -23,15 +25,5 @@
     "client": [
       "marioandweegee3.flax.client.FMClient"
     ]
-  },
-  "mixins": [
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
