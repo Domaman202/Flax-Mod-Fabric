@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "flax",
+  "id": "dmn_flax",
   "version": "${version}",
 
   "name": "Flax",
